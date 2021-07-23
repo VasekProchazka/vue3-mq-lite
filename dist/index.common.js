@@ -255,4 +255,4 @@ var mqPlugin = {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=vue3-mq-lite.common.js.map
+//# sourceMappingURL=index.common.js.map

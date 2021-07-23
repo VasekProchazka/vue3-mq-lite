@@ -7,7 +7,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "build-lib": "vue-cli-service build --target lib --name vue3-mq-lite ./src/index.js"
+    "build-lib": "vue-cli-service build --target lib --name index ./src/index.js"
   },
   "author": "Vaclav Prochazka",
   "repository": {

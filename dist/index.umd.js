@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["vue3-mq-lite"] = factory(require("vue"));
+		exports["index"] = factory(require("vue"));
 	else
-		root["vue3-mq-lite"] = factory(root["Vue"]);
+		root["index"] = factory(root["Vue"]);
 })((typeof self !== 'undefined' ? self : this), function(__WEBPACK_EXTERNAL_MODULE__8bbf__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -265,4 +265,4 @@ var mqPlugin = {
 
 /******/ });
 });
-//# sourceMappingURL=vue3-mq-lite.umd.js.map
+//# sourceMappingURL=index.umd.js.map
