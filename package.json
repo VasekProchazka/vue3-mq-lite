@@ -1,12 +1,20 @@
 {
-  "name": "vue3-md-lite",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue3-mq-lite",
+  "version": "1.0.0",
+  "description": "Media queries for Vue 3",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build-lib": "vue-cli-service build --target lib --name vue3-mq-lite ./src/index.js"
   },
+  "author": "Vaclav Prochazka",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VasekProchazka/vue3-mq-lite"
+  },
+  "license": "MIT",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0"
