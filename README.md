@@ -53,10 +53,28 @@ app.mount('#app');
 
 ### 2.) Usage
 
+For exact breakpoint:
+
 ```html
 <template>
-  <div v-if="$mq.breakpoint.sm">mobile breakpoint</div>
-  <div v-if="$mq.breakpoint.md">tablet breakpoint</div>
-  <div v-if="$mq.breakpoint.lg">desktop breakpoint</div>
+  <div v-if="$mq.sm">mobile breakpoint</div>
+  <div v-if="$mq.md">tablet breakpoint</div>
+  <div v-if="$mq.lg">desktop breakpoint</div>
+</template>
+```
+
+For breakpoints bigger than sm (include md):
+
+```html
+<template>
+  <div v-if="$mq.min.md">tablet and desktop breakpoint</div>
+</template>
+```
+
+For breakpoints smaller than lg (include md):
+
+```html
+<template>
+  <div v-if="$mq.max.md">mobile and tablet breakpoint</div>
 </template>
 ```
