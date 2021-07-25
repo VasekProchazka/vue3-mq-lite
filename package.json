@@ -1,8 +1,8 @@
 {
   "name": "vue3-mq-lite",
-  "version": "1.0.2",
+  "version": "1.1.4",
   "description": "Media queries for Vue 3",
-  "main": "dist/index.common.js",
+  "main": "./dist/index.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -13,6 +13,10 @@
     "type": "git",
     "url": "https://github.com/VasekProchazka/vue3-mq-lite"
   },
+  "keywords": [
+    "vue3",
+    "media query"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
